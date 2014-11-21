@@ -213,6 +213,13 @@
 			<key>tabletScale</key>
 			<integer>1</integer>
 		</dict>
+		<key>misc/leader.png</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>versionStr</key>
 	<string>Version: 1.1.0

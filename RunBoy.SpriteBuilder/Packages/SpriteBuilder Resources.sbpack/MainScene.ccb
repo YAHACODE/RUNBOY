@@ -1575,8 +1575,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>269.38473510742188</real>
-							<real>125.98702239990234</real>
+							<real>267.38473510742188</real>
+							<real>141.98703002929688</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1624,8 +1624,8 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>40</real>
-							<real>40</real>
+							<real>60</real>
+							<real>60</real>
 							<integer>0</integer>
 							<integer>0</integer>
 						</array>
@@ -1658,7 +1658,7 @@
 						<string>String</string>
 						<key>value</key>
 						<array>
-							<string>Restart</string>
+							<string></string>
 							<false/>
 						</array>
 					</dict>
@@ -1670,7 +1670,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonNormal.png</string>
+							<string>misc/play.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -1681,7 +1681,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonHighlighted.png</string>
+							<string>misc/play.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -1705,7 +1705,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonNormal.png</string>
+							<string>misc/play.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -1724,7 +1724,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonNormal.png</string>
+							<string>misc/play.png</string>
 						</array>
 					</dict>
 					<dict>

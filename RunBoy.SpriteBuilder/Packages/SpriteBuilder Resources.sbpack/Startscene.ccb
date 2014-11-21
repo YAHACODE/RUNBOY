@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>4</integer>
+	<integer>9</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -72,7 +72,7 @@
 						<key>value</key>
 						<array>
 							<real>302</real>
-							<real>155</real>
+							<real>152</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -120,8 +120,8 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>40</real>
-							<real>40</real>
+							<real>60</real>
+							<real>60</real>
 							<integer>0</integer>
 							<integer>0</integer>
 						</array>
@@ -154,7 +154,7 @@
 						<string>String</string>
 						<key>value</key>
 						<array>
-							<string>Play</string>
+							<string></string>
 							<false/>
 						</array>
 					</dict>
@@ -166,7 +166,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonNormal.png</string>
+							<string>misc/play.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -177,7 +177,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonHighlighted.png</string>
+							<string>misc/play.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -201,7 +201,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonNormal.png</string>
+							<string>misc/play.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -220,7 +220,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonNormal.png</string>
+							<string>misc/play.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -397,8 +397,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>197</real>
-							<real>155</real>
+							<real>226</real>
+							<real>151</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -446,8 +446,8 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>40</real>
-							<real>40</real>
+							<real>90</real>
+							<real>87</real>
 							<integer>0</integer>
 							<integer>0</integer>
 						</array>
@@ -480,7 +480,7 @@
 						<string>String</string>
 						<key>value</key>
 						<array>
-							<string>Leaderboard</string>
+							<string></string>
 							<false/>
 						</array>
 					</dict>
@@ -492,7 +492,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonNormal.png</string>
+							<string>misc/leader.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -503,7 +503,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonHighlighted.png</string>
+							<string>misc/leader.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -527,7 +527,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonNormal.png</string>
+							<string>misc/leader.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -546,7 +546,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonNormal.png</string>
+							<string>misc/leader.png</string>
 						</array>
 					</dict>
 					<dict>
