@@ -70,7 +70,7 @@ static const CGFloat distanceBetweenPresentAndCeiling = 225.f;
     [self spawnBoth];
     [self spawnBoth];
     [self spawnBoth];
-    _scrollSpeed = 80.f;
+    _scrollSpeed = 90.f;
     int currentHighScore = [self getHighScore];
     if (currentHighScore == NULL) {
         [self setHighScore:0];
@@ -104,7 +104,7 @@ static const CGFloat distanceBetweenPresentAndCeiling = 225.f;
 -(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero present:(CCNode *)present {
     [present removeFromParent];
     _points++;
-    _scrollSpeed = _scrollSpeed + 5;
+    _scrollSpeed = _scrollSpeed + 3;
     
     NSNumber *score = [NSNumber numberWithInteger:_points];
     [MGWU setObject:score forKey:@"score"];

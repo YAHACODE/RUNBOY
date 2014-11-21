@@ -22,13 +22,5 @@
 }
 
 
-- (void)onEnter {
-    [super onEnter];
-    
-    _scoreLabel.string = [NSString stringWithFormat:@"%i",[[MGWU objectForKey:@"score"]intValue]];
-    _highScoreLabel.string = [NSString stringWithFormat:@"%i",[[MGWU objectForKey:@"highscore"]intValue]];
-    
- 
-}
 @end
 

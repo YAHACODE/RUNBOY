@@ -22,5 +22,10 @@ BOOL _gameOver;
     [[CCDirector sharedDirector] replaceScene:mainScene withTransition: [CCTransition transitionPushWithDirection:CCTransitionDirectionDown duration:0.5]];
 }
 
+- (void)leaderboard {
+    CCScene *gameplayScene = [CCBReader loadAsScene:@"Leaderboard"];
+    CCTransition *transition = [CCTransition transitionPushWithDirection:CCTransitionDirectionLeft duration:0.5];
+    [[CCDirector sharedDirector] presentScene:gameplayScene withTransition:transition];
+}
 
 @end
