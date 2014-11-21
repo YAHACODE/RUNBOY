@@ -105,6 +105,12 @@ static const CGFloat distanceBetweenPresentAndCeiling = 225.f;
     [present removeFromParent];
     _points++;
     _scrollSpeed = _scrollSpeed + 5;
+    
+    NSNumber *score = [NSNumber numberWithInteger:_points];
+    [MGWU setObject:score forKey:@"score"];
+    if ([[MGWU objectForKey:@"score"]intValue] > [[MGWU objectForKey:@"highscore"]intValue]) {
+        [MGWU setObject:[MGWU objectForKey:@"score"] forKey:@"highscore"];
+    }
     _scoreLabel.string = [NSString stringWithFormat:@"Score: %d", _points];
     
     int currentHighScore = [self getHighScore];

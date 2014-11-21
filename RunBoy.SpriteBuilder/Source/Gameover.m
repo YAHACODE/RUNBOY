@@ -15,7 +15,20 @@
     CCLabelTTF *_highScoreLabel;
 
 }
+- (void)leaderboard {
+    CCScene *gameplayScene = [CCBReader loadAsScene:@"Leaderboard"];
+    CCTransition *transition = [CCTransition transitionPushWithDirection:CCTransitionDirectionLeft duration:0.5];
+    [[CCDirector sharedDirector] presentScene:gameplayScene withTransition:transition];
+}
 
 
+- (void)onEnter {
+    [super onEnter];
+    
+    _scoreLabel.string = [NSString stringWithFormat:@"%i",[[MGWU objectForKey:@"score"]intValue]];
+    _highScoreLabel.string = [NSString stringWithFormat:@"%i",[[MGWU objectForKey:@"highscore"]intValue]];
+    
+ 
+}
 @end
 

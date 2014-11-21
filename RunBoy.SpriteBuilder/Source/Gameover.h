@@ -7,10 +7,7 @@
 //
 
 #import "CCNode.h"
-@class MainScene;
 
 @interface Gameover : CCNode
-@property (nonatomic, weak) MainScene *mainScene;
-@property (nonatomic, assign) int score;
 
 @end

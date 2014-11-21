@@ -7,6 +7,7 @@
 //
 
 #import "Startscene.h"
+BOOL _gameOver;
 
 @implementation Startscene
 {}
@@ -15,6 +16,8 @@
 
 
 - (void)play {
+    _gameOver = FALSE;
+
     CCScene *mainScene = [CCBReader loadAsScene:@"MainScene"];
     [[CCDirector sharedDirector] replaceScene:mainScene withTransition: [CCTransition transitionPushWithDirection:CCTransitionDirectionDown duration:0.5]];
 }
