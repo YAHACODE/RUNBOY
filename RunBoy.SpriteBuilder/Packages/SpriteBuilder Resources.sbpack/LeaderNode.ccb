@@ -78,8 +78,8 @@
 				<string>Size</string>
 				<key>value</key>
 				<array>
-					<real>256</real>
-					<real>300</real>
+					<real>500</real>
+					<real>200</real>
 					<integer>0</integer>
 					<integer>0</integer>
 				</array>
