@@ -42,6 +42,76 @@
 			<dict>
 				<key>UUID</key>
 				<integer>1</integer>
+				<key>animatedProperties</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>spriteFrame</key>
+						<dict>
+							<key>keyframes</key>
+							<array>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>0</integer>
+									</dict>
+									<key>name</key>
+									<string>spriteFrame</string>
+									<key>time</key>
+									<real>0.0</real>
+									<key>type</key>
+									<integer>7</integer>
+									<key>value</key>
+									<array>
+										<string>ARTWORK/items/gif-3.png</string>
+										<string>Use regular file</string>
+									</array>
+								</dict>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>0</integer>
+									</dict>
+									<key>name</key>
+									<string>spriteFrame</string>
+									<key>time</key>
+									<real>1.5</real>
+									<key>type</key>
+									<integer>7</integer>
+									<key>value</key>
+									<array>
+										<string>ARTWORK/items/gift-1.png</string>
+										<string>Use regular file</string>
+									</array>
+								</dict>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>0</integer>
+									</dict>
+									<key>name</key>
+									<string>spriteFrame</string>
+									<key>time</key>
+									<real>2.9333333969116211</real>
+									<key>type</key>
+									<integer>7</integer>
+									<key>value</key>
+									<array>
+										<string>ARTWORK/items/gift-2.png</string>
+										<string>Use regular file</string>
+									</array>
+								</dict>
+							</array>
+							<key>name</key>
+							<string>spriteFrame</string>
+							<key>type</key>
+							<integer>7</integer>
+						</dict>
+					</dict>
+				</dict>
 				<key>baseClass</key>
 				<string>CCSprite</string>
 				<key>children</key>
@@ -85,32 +155,32 @@
 							<real>0.0</real>
 						</array>
 						<array>
-							<real>0.0</real>
-							<real>117</real>
+							<real>2.4290266036987305</real>
+							<real>70.706069946289062</real>
 						</array>
 						<array>
-							<real>125</real>
-							<real>117</real>
+							<real>66.219291687011719</real>
+							<real>69.441215515136719</real>
 						</array>
 						<array>
-							<real>125</real>
-							<real>0.0</real>
+							<real>67.200973510742188</real>
+							<real>-0.25171259045600891</real>
 						</array>
 					</array>
 					<key>polygons</key>
 					<array>
 						<array>
 							<array>
-								<real>125</real>
-								<real>0.0</real>
+								<real>67.200973510742188</real>
+								<real>-0.25171259045600891</real>
 							</array>
 							<array>
-								<real>125</real>
-								<real>117</real>
+								<real>66.219291687011719</real>
+								<real>69.441215515136719</real>
 							</array>
 							<array>
-								<real>0.0</real>
-								<real>117</real>
+								<real>2.4290266036987305</real>
+								<real>70.706069946289062</real>
 							</array>
 							<array>
 								<real>0.0</real>
@@ -161,13 +231,18 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>0.6809999942779541</real>
-							<real>0.6809999942779541</real>
+							<real>0.62074762582778931</real>
+							<real>0.62074762582778931</real>
 							<false/>
 							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
+						<key>baseValue</key>
+						<array>
+							<string>ARTWORK/items/gif-3.png</string>
+							<string>Use regular file</string>
+						</array>
 						<key>name</key>
 						<string>spriteFrame</string>
 						<key>type</key>
@@ -175,7 +250,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>coin01.png</string>
+							<string>ARTWORK/items/gif-3.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -192,6 +267,10 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
+				<key>seqExpanded</key>
+				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
@@ -311,15 +390,15 @@
 				<integer>12</integer>
 			</dict>
 			<key>chainedSequenceId</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 			<key>length</key>
-			<real>10</real>
+			<real>3</real>
 			<key>name</key>
 			<string>Default Timeline</string>
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.0</real>
+			<real>1</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>

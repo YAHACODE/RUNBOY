@@ -16,12 +16,16 @@ BOOL _gameOver;
 CGFloat _scrollSpeed;
 static const CGFloat firstObstaclePosition = 150.f;
 static const CGFloat firstPresentPosition = 150.f;
-static const CGFloat distanceBetweenObstacles = 150.f;
-static const CGFloat distanceBetweenObstacleAndFloor = 87.f;
-static const CGFloat distanceBetweenObstacleAndCeiling = 225.f;
-static const CGFloat distanceBetweenPresents = 150.f;
-static const CGFloat distanceBetweenPresentAndFloor = 87.f;
-static const CGFloat distanceBetweenPresentAndCeiling = 225.f;
+static const CGFloat distanceBetweenObstacles = 180.f;
+
+static const CGFloat distanceBetweenObstacleAndFloor = 58.f;
+
+static const CGFloat distanceBetweenObstacleAndCeiling = 209.f;
+
+static  CGFloat distanceBetweenPresents = 180.f;
+static const CGFloat distanceBetweenPresentAndFloor = 58.f;
+static const CGFloat distanceBetweenPresentAndCeiling = 209.f;
+
 
 @implementation MainScene {
     CCSprite *_hero;
@@ -76,15 +80,22 @@ static const CGFloat distanceBetweenPresentAndCeiling = 225.f;
         [self setHighScore:0];
     }
     _highScoreLabel.string = [NSString stringWithFormat:@"Best: %d", currentHighScore];
+    
+ 
+
 }
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     
       if(!_gameOver) {
         if (_hero.position.y > 200) {
-            _hero.position = ccp(_hero.position.x, 118);
+         // _hero.position = ccp(_hero.position.x, 118);
+         _hero.position = ccp(_hero.position.x+1, 100);
+
         } else {
-            _hero.position = ccp(_hero.position.x, 255);
+        //   _hero.position = ccp(_hero.position.x, 255);
+                   _hero.position = ccp(_hero.position.x+1, 210);
+
         }
     }
     
@@ -102,9 +113,14 @@ static const CGFloat distanceBetweenPresentAndCeiling = 225.f;
 }
 
 -(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero present:(CCNode *)present {
+  
+    NSLog(@"distanceBetweenPresents: %f",distanceBetweenPresents);
+
     [present removeFromParent];
     _points++;
     _scrollSpeed = _scrollSpeed + 3;
+   NSLog(@"scrollspeed: %f",_scrollSpeed);
+
     
     NSNumber *score = [NSNumber numberWithInteger:_points];
     [MGWU setObject:score forKey:@"score"];
@@ -190,6 +206,19 @@ static const CGFloat distanceBetweenPresentAndCeiling = 225.f;
 }
 
 - (void)update:(CCTime)delta {
+    
+    
+    if (_scrollSpeed==200) {
+
+        distanceBetweenPresents=distanceBetweenPresents+0.1;
+    }
+    else{}
+    
+    if (_scrollSpeed>400) {
+        _scrollSpeed=_scrollSpeed-5;
+    }
+    else {}
+    
     _hero.position = ccp(_hero.position.x + delta * _scrollSpeed, _hero.position.y);
     _physicsNode.position = ccp(_physicsNode.position.x - (_scrollSpeed *delta), _physicsNode.position.y);
     // loop the ground
@@ -263,7 +292,6 @@ static const CGFloat distanceBetweenPresentAndCeiling = 225.f;
     [[CCDirector sharedDirector] replaceScene:scene];
 }
 ////////////////////
-
 
 //-(void) doGameOver
 //{

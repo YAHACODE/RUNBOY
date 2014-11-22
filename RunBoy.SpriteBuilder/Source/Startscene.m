@@ -10,10 +10,16 @@
 BOOL _gameOver;
 
 @implementation Startscene
-{}
+{
+    CCSprite *_char;
+}
 
 
+-(void)update:(CCTime)delta
+{
 
+    [_char.physicsBody applyImpulse:ccp(400.f, 0.f)];
+}
 
 - (void)play {
     _gameOver = FALSE;
