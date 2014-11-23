@@ -80,12 +80,35 @@
 			<key>previewFolderHidden</key>
 			<true/>
 		</dict>
+		<key>1.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
+		<key>2.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
 		<key>ARTWORK/character</key>
 		<dict>
-			<key>isDirty</key>
-			<true/>
 			<key>isSmartSpriteSheet</key>
 			<true/>
+		</dict>
+		<key>BeFunky_null_8.png.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>4</integer>
+		</dict>
+		<key>CREDIT.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
+		<key>HOME.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>1</integer>
 		</dict>
 		<key>Player</key>
 		<dict>
@@ -124,6 +147,16 @@
 		</dict>
 		<key>Sprites</key>
 		<dict/>
+		<key>add.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
+		<key>back.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
 		<key>ccbResources</key>
 		<dict>
 			<key>previewFolderHidden</key>
@@ -207,6 +240,16 @@
 			<integer>1</integer>
 		</dict>
 		<key>misc/leader.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
+		<key>playbuttond.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
+		<key>replay.png</key>
 		<dict>
 			<key>scaleFrom</key>
 			<integer>1</integer>
