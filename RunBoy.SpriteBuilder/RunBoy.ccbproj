@@ -239,6 +239,11 @@
 			<key>tabletScale</key>
 			<integer>1</integer>
 		</dict>
+		<key>coollogo_com-102492670.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
 		<key>misc/leader.png</key>
 		<dict>
 			<key>scaleFrom</key>

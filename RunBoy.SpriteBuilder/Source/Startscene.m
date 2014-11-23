@@ -22,6 +22,7 @@ BOOL _gameOver;
 }
 
 - (void)play {
+    [self truma];
     _gameOver = FALSE;
 
     CCScene *mainScene = [CCBReader loadAsScene:@"MainScene"];
@@ -32,6 +33,12 @@ BOOL _gameOver;
     CCScene *gameplayScene = [CCBReader loadAsScene:@"Leaderboard"];
     CCTransition *transition = [CCTransition transitionPushWithDirection:CCTransitionDirectionLeft duration:0.5];
     [[CCDirector sharedDirector] presentScene:gameplayScene withTransition:transition];
+}
+
+-(void)truma
+{
+    OALSimpleAudio *audio = [OALSimpleAudio sharedInstance];
+    [audio playBg:@"music.mp3" loop:true];
 }
 
 - (void)credit {

@@ -64,7 +64,7 @@
 									<integer>7</integer>
 									<key>value</key>
 									<array>
-										<string>ARTWORK/obstacles/road-cone.png</string>
+										<string>ARTWORK/obstacles/crates.png</string>
 										<string>Use regular file</string>
 									</array>
 								</dict>
@@ -77,7 +77,7 @@
 									<key>name</key>
 									<string>spriteFrame</string>
 									<key>time</key>
-									<real>3.3666665554046631</real>
+									<real>0.56666666269302368</real>
 									<key>type</key>
 									<integer>7</integer>
 									<key>value</key>
@@ -95,7 +95,43 @@
 									<key>name</key>
 									<string>spriteFrame</string>
 									<key>time</key>
-									<real>7.0333333015441895</real>
+									<real>1.4666666984558105</real>
+									<key>type</key>
+									<integer>7</integer>
+									<key>value</key>
+									<array>
+										<string>ARTWORK/obstacles/road-cone.png</string>
+										<string>Use regular file</string>
+									</array>
+								</dict>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>0</integer>
+									</dict>
+									<key>name</key>
+									<string>spriteFrame</string>
+									<key>time</key>
+									<real>2.2333333492279053</real>
+									<key>type</key>
+									<integer>7</integer>
+									<key>value</key>
+									<array>
+										<string>ARTWORK/obstacles/wall.png</string>
+										<string>Use regular file</string>
+									</array>
+								</dict>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>0</integer>
+									</dict>
+									<key>name</key>
+									<string>spriteFrame</string>
+									<key>time</key>
+									<real>3.1333334445953369</real>
 									<key>type</key>
 									<integer>7</integer>
 									<key>value</key>
@@ -113,30 +149,12 @@
 									<key>name</key>
 									<string>spriteFrame</string>
 									<key>time</key>
-									<real>10.699999809265137</real>
+									<real>3.9333333969116211</real>
 									<key>type</key>
 									<integer>7</integer>
 									<key>value</key>
 									<array>
 										<string>ARTWORK/obstacles/trash-can.png</string>
-										<string>Use regular file</string>
-									</array>
-								</dict>
-								<dict>
-									<key>easing</key>
-									<dict>
-										<key>type</key>
-										<integer>0</integer>
-									</dict>
-									<key>name</key>
-									<string>spriteFrame</string>
-									<key>time</key>
-									<real>14.833333015441895</real>
-									<key>type</key>
-									<integer>7</integer>
-									<key>value</key>
-									<array>
-										<string>ARTWORK/obstacles/wall.png</string>
 										<string>Use regular file</string>
 									</array>
 								</dict>
@@ -291,8 +309,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1.1379573345184326</real>
-							<real>1.1379573345184326</real>
+							<real>0.97393512725830078</real>
+							<real>0.97393512725830078</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -327,8 +345,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 				<key>seqExpanded</key>
 				<true/>
 			</dict>
@@ -452,13 +468,13 @@
 			<key>chainedSequenceId</key>
 			<integer>-1</integer>
 			<key>length</key>
-			<real>15</real>
+			<real>4</real>
 			<key>name</key>
 			<string>Default Timeline</string>
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.0</real>
+			<real>4</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>

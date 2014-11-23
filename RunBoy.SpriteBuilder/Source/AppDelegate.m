@@ -24,16 +24,21 @@
  */
 
 #import "cocos2d.h"
-
 #import "AppDelegate.h"
 #import "CCBuilderReader.h"
-
+@import StoreKit;
+@import QuartzCore;
+@import AdSupport;
+@import MediaPlayer;
+@import CoreTelephony;
+#import <HeyzapAds/HeyzapAds.h>
 @implementation AppController
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [MGWU loadMGWU:@"992365599840226297122610"];
     [MGWU dark];
+    [HeyzapAds startWithPublisherID: @"7be77d243ec64acabecac8d38e7bf23f"];
 
     
     // Configure Cocos2d with the options set in SpriteBuilder

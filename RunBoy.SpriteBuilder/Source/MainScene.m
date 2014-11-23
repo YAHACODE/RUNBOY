@@ -11,7 +11,7 @@
 #import "Present.h"
 #import "Present.h"
 #import "Gameover.h"
-
+#import <HeyzapAds/HeyzapAds.h>
 BOOL _gameOver;
 CGFloat _scrollSpeed;
 static const CGFloat firstObstaclePosition = 150.f;
@@ -269,6 +269,7 @@ static const CGFloat distanceBetweenPresentAndCeiling = 209.f;
 
 - (void)gameOver {
     if (!_gameOver) {
+        [HZInterstitialAd show];
         CCAnimationManager* animationManager = self.animationManager;
         [animationManager runAnimationsForSequenceNamed:@"labelup"];
         

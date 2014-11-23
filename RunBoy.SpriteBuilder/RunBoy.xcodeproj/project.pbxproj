@@ -86,6 +86,8 @@
 		081F90141A1FE087000B15AC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 081F90131A1FE087000B15AC /* SystemConfiguration.framework */; };
 		081F90161A1FE095000B15AC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 081F90151A1FE095000B15AC /* Social.framework */; };
 		0824AAC91A21F37000A0A61F /* credit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0824AAC81A21F37000A0A61F /* credit.m */; };
+		0824AACF1A21F81900A0A61F /* HeyzapAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0824AACE1A21F81900A0A61F /* HeyzapAds.framework */; };
+		0824AAEE1A22125600A0A61F /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0824AAED1A22125600A0A61F /* music.mp3 */; };
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		B737893B180761570076A88C /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = B737893A180761570076A88C /* Published-iOS */; };
 		B737893F1807617C0076A88C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B737893E1807617C0076A88C /* AppDelegate.m */; };
@@ -207,6 +209,8 @@
 		081F90151A1FE095000B15AC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		0824AAC71A21F37000A0A61F /* credit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = credit.h; path = Source/credit.h; sourceTree = "<group>"; };
 		0824AAC81A21F37000A0A61F /* credit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = credit.m; path = Source/credit.m; sourceTree = "<group>"; };
+		0824AACE1A21F81900A0A61F /* HeyzapAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HeyzapAds.framework; sourceTree = "<group>"; };
+		0824AAED1A22125600A0A61F /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		B737893A180761570076A88C /* Published-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Published-iOS"; path = "Source/Resources/Published-iOS"; sourceTree = SOURCE_ROOT; };
 		B737893D1807617C0076A88C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Source/AppDelegate.h; sourceTree = "<group>"; };
@@ -253,6 +257,7 @@
 				B77F1B3A17B978D7009739AE /* AVFoundation.framework in Frameworks */,
 				B77F1B3C17B978D7009739AE /* UIKit.framework in Frameworks */,
 				B77F1B3E17B978D7009739AE /* Foundation.framework in Frameworks */,
+				0824AACF1A21F81900A0A61F /* HeyzapAds.framework in Frameworks */,
 				B77F1B4017B978D7009739AE /* CoreGraphics.framework in Frameworks */,
 				B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */,
 				081F8FC71A1FE041000B15AC /* mgwuSDK.framework in Frameworks */,
@@ -409,6 +414,7 @@
 		B77F1B3017B978D7009739AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0824AACE1A21F81900A0A61F /* HeyzapAds.framework */,
 				081F90151A1FE095000B15AC /* Social.framework */,
 				081F90131A1FE087000B15AC /* SystemConfiguration.framework */,
 				081F90111A1FE07D000B15AC /* StoreKit.framework */,
@@ -433,6 +439,7 @@
 		B77F1B4617B978D7009739AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0824AAED1A22125600A0A61F /* music.mp3 */,
 				F5819F0219C5508700258E6C /* Images.xcassets */,
 				B737893A180761570076A88C /* Published-iOS */,
 			);
@@ -584,6 +591,7 @@
 				081F8FD51A1FE041000B15AC /* green.png in Resources */,
 				081F90041A1FE041000B15AC /* mgwuPlaceholderIconDark.png in Resources */,
 				081F8FF61A1FE041000B15AC /* MGWUBackgroundDark-Portrait~ipad.png in Resources */,
+				0824AAEE1A22125600A0A61F /* music.mp3 in Resources */,
 				081F8FCB1A1FE041000B15AC /* FacebookIcon.png in Resources */,
 				081F90061A1FE041000B15AC /* operator.available.png in Resources */,
 				081F8FE31A1FE041000B15AC /* MGWUAboutFooter-Landscape~iphone.png in Resources */,
@@ -696,6 +704,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -703,6 +712,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/mgwuSDK.embeddedframework",
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -736,6 +746,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -743,6 +754,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/mgwuSDK.embeddedframework",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Prefix.pch;

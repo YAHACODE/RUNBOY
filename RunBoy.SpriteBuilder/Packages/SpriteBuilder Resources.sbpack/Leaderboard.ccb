@@ -14,7 +14,7 @@
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>currentSequenceId</key>
 	<integer>0</integer>
 	<key>docDimensionsType</key>
@@ -71,8 +71,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>295.74176025390625</real>
-							<real>161.65130615234375</real>
+							<real>255.58625793457031</real>
+							<real>186.19078063964844</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -96,8 +96,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>0.69127810001373291</real>
-							<real>0.69127810001373291</real>
+							<real>0.72269159555435181</real>
+							<real>0.72269159555435181</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -338,8 +338,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.69952476024627686</real>
-							<real>0.16562500596046448</real>
+							<real>0.66863030195236206</real>
+							<real>0.22359828650951385</real>
 							<integer>1</integer>
 							<integer>2</integer>
 							<integer>2</integer>
@@ -465,8 +465,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.47999998927116394</real>
-							<real>0.43000000715255737</real>
+							<real>0.49742859601974487</real>
+							<real>0.38824865221977234</real>
 							<integer>0</integer>
 							<integer>2</integer>
 							<integer>2</integer>
@@ -564,8 +564,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.47999998927116394</real>
-							<real>0.43000000715255737</real>
+							<real>0.50198912620544434</real>
+							<real>0.38824865221977234</real>
 							<integer>0</integer>
 							<integer>2</integer>
 							<integer>2</integer>
@@ -682,8 +682,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.060910075902938843</real>
-							<real>0.15937499701976776</real>
+							<real>0.069873973727226257</real>
+							<real>0.23619237542152405</real>
 							<integer>2</integer>
 							<integer>2</integer>
 							<integer>2</integer>
@@ -707,8 +707,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>0.77618217468261719</real>
-							<real>0.77618217468261719</real>
+							<real>0.52512425184249878</real>
+							<real>0.52512425184249878</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -1009,7 +1009,7 @@
 						<key>value</key>
 						<array>
 							<real>0.95422536134719849</real>
-							<real>0.084375001490116119</real>
+							<real>0.066132940351963043</real>
 							<integer>0</integer>
 							<integer>2</integer>
 							<integer>2</integer>
@@ -1334,11 +1334,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>145.89936828613281</real>
-							<real>270.53005981445312</real>
-							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<real>0.48317679762840271</real>
+							<real>0.091548442840576172</real>
+							<integer>1</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1359,8 +1359,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
+							<real>0.85051637887954712</real>
+							<real>0.85051637887954712</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -1423,11 +1423,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>404.38449096679688</real>
-							<real>299.34393310546875</real>
-							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<real>0.24200525879859924</real>
+							<real>0.23051008582115173</real>
+							<integer>1</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1437,8 +1437,8 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.5</real>
-							<real>0.5</real>
+							<real>0.47248214483261108</real>
+							<real>0.50106507539749146</real>
 						</array>
 					</dict>
 					<dict>

@@ -16,7 +16,7 @@
 	<key>currentResolution</key>
 	<integer>0</integer>
 	<key>currentSequenceId</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>docDimensionsType</key>
 	<integer>0</integer>
 	<key>fileType</key>
@@ -73,8 +73,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>301.40603637695312</real>
-							<real>159.65225219726562</real>
+							<real>277.99575805664062</real>
+							<real>208.60101318359375</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1822,8 +1822,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>48.392555236816406</real>
-							<real>98.237197875976562</real>
+							<real>13.461562156677246</real>
+							<real>25.28363037109375</real>
 							<integer>1</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -2088,8 +2088,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>210.12652587890625</real>
-							<real>84.199996948242188</real>
+							<real>136.21659851074219</real>
+							<real>13.862213134765625</real>
 							<integer>1</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -2460,7 +2460,7 @@
 		</dict>
 	</array>
 	<key>stageBorder</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>stageColor</key>
 	<integer>0</integer>
 </dict>
