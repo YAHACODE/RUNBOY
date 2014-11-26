@@ -4,8 +4,7 @@ RunBoy
 Copyright © All Rights Reserved artwork.
 
 Simple, Fun, and Challenging
-
-Screenshots @ 
+![alt tag](http://tinypic.com/r/abrxat/8)
 
 Gameplay
 
@@ -19,6 +18,7 @@ Infinite Horizontal Scroller
 Cocos2D Physics Engine
 Global Leaderboard
 Heyzap Ads.
+Leaderboared.
 
 
-coming soon.
+coming soon.(under review)
