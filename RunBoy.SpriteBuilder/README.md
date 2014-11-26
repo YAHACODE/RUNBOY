@@ -4,7 +4,7 @@ RunBoy
 Copyright © All Rights Reserved artwork.
 
 Simple, Fun, and Challenging
-![alt tag](http://tinypic.com/r/abrxat/8)
+![alt tag](http://s12.postimg.org/pzfn2iqf1/image.png)
 
 Gameplay
 
