@@ -26,4 +26,4 @@ Heyzap Ads.
 Leaderboared.
 
 
-coming soon.(under review)
+coming soon. 1.1 In Review
