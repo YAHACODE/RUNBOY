@@ -26,4 +26,4 @@ Heyzap Ads.
 Leaderboared.
 
 
-coming soon. 1.1 In Review
+ 1.1 In Review
