@@ -28,6 +28,7 @@ static const CGFloat distanceBetweenPresentAndCeiling = 209.f;
 
 
 @implementation MainScene {
+    
     CCSprite *_hero;
     CCPhysicsNode *_physicsNode;
     CCNode *_ground1;
@@ -49,7 +50,6 @@ static const CGFloat distanceBetweenPresentAndCeiling = 209.f;
     
     Gameover *_gameOverScreen;
     CCNode*_gameup;
-
 
 }
 
@@ -86,6 +86,7 @@ static const CGFloat distanceBetweenPresentAndCeiling = 209.f;
 }
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+ 
     
       if(!_gameOver) {
         if (_hero.position.y > 200) {
@@ -206,7 +207,8 @@ static const CGFloat distanceBetweenPresentAndCeiling = 209.f;
 }
 
 - (void)update:(CCTime)delta {
-    
+
+   
     
     if (_scrollSpeed==200) {
 

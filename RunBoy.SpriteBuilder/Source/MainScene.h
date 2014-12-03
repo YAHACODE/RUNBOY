@@ -11,5 +11,7 @@
 {
 
 }
+-(void) touchBegan:(UITouch *)touch withEvent:(UIEvent *)event;
+
 
 @end

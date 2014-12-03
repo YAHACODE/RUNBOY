@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>19</integer>
+	<integer>20</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -1046,12 +1046,10 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
-				<integer>17</integer>
+				<integer>19</integer>
 				<key>baseClass</key>
 				<string>CCSprite</string>
 				<key>children</key>
@@ -1059,7 +1057,7 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>die-1</string>
+				<string>flying</string>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -1081,8 +1079,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>85.263435363769531</real>
-							<real>85.079292297363281</real>
+							<real>67.727874755859375</real>
+							<real>92.485649108886719</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1120,7 +1118,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ARTWORK/character/die-1.png</string>
+							<string>ARTWORK/character/flying.png</string>
 						</array>
 					</dict>
 					<dict>
